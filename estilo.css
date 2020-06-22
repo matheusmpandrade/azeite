@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url("IMG_5922.jpg");
+  background-size: 90%  ;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+body {    
+    
+    height: 100vh;
+
+    font-family: 'Roboto Slab', serif;
+  }
+
+  @media (min-width: 400px){
+
+    font-size: 14px;
+  }
+  
+  .menu {
+    background-color: none;
+    position: fixed;
+    top: 10px;
+    width: 100vw;
+  }
+
+  .menu a {
+    background-color: none;
+    display: block;
+    padding: 10px 20px;
+
+
+  }
+
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+    
+  }
+
+  .menu li {
+    color: whitesmoke;
+    list-style: none;
+ 
+  }
+
+  a {
+    text-decoration: none;
+    color: whitesmoke;
+    
+  }
+  .site-title {
+    font-family: 'Major Mono Display', monospace;
+  }
+
+  .site-subtitle {
+    font-family: 'Major Mono Display', monospace;
+    line-height: 50px;
+  }
+
+  .site-title, .site-subtitle {
+    
+    color: whitesmoke;
+    text-align: center;
+    }
+  
+    .titles {
+      padding-bottom: 50px;
+    }
+
+
+  .img-portfolio {
+      height: 180px;
+      width: 180px;
+   }
+
+  
+ 
